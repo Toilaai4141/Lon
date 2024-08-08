@@ -372,13 +372,13 @@ local Toggle = Tabs.ArTab:AddToggle("Toggle", {Title = "Auto Sword", Default = f
         Sword = value
     end)
     
-local Toggle = Tabs.Arab:AddToggle("Toggle", {Title = "Auto Defense", Default = false })
+local Toggle = Tabs.ArTab:AddToggle("Toggle", {Title = "Auto Defense", Default = false })
 
     Toggle:OnChanged(function(value)
         Defense = value
     end)
     
-local Toggle = Tabs.Arab:AddToggle("Toggle", {Title = "Auto Fruit", Default = false })
+local Toggle = Tabs.ArTab:AddToggle("Toggle", {Title = "Auto Fruit", Default = false })
 
     Toggle:OnChanged(function(value)
         DevilFruit = value
