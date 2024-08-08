@@ -395,6 +395,10 @@ local Dropdown = Tabs.MiscTab:AddDropdown("Dropdown", {
         Multi = false,
         Default = 1,
     })
+    Dropdown:SetValue("None")
+    Dropdown:OnChanged(function(Value)
+        print("Dropdown changed:", Value)
+    end)
     
     function fixQuest()
     if game.Players.LocalPlayer.PlayerGui:FindFirstChild("QuestTake") then
