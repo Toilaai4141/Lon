@@ -395,15 +395,14 @@ local Dropdown = Tabs.MiscTab:AddDropdown("Dropdown", {
         Multi = false,
         Default = 1,
     })
-    Dropdown:SetValue("None")
+    Dropdown:SetValue("")
     Dropdown:OnChanged(function(Value)
-        print("Dropdown changed:", Value)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(305.67746, 63.8466759, 130.768402, -0.508691072, -4.77496371e-08, -0.860949099, -6.37838085e-08, 1, -1.77750152e-08, 0.860949099, 4.58726213e-08, -0.508691072)
     end)
-    Dropdown:SetValue("zamasu")
+    Dropdown:SetValue("")
     Dropdown:OnChanged(function(Value)
-        print("Dropdown changed:", Value)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-700.902893, 100.1214142, -1429.79468, 0.499959469, 0, 0.866048813, 0, 1, 0, -0.866048813, 0, 0.499959469)
     end)
-    
     function fixQuest()
     if game.Players.LocalPlayer.PlayerGui:FindFirstChild("QuestTake") then
         for i,v in pairs(game.Players.LocalPlayer.PlayerGui:GetDescendants()) do
