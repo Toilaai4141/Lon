@@ -355,46 +355,46 @@ local Toggle = Tabs.CcTab:AddToggle("Toggle", {Title = "Auto Fram Raids", Defaul
         Weapon = Value
     end)
     
-    --   Dark   Light  Aqua Amethyst
+--   Dark   Light  Aqua Amethyst
 local Tabs = {
     TTTab = Window:AddTab({ Title = "Star", Icon = "rbxassetid://17515562390" }),
 }
 
-local Toggle = Tabs.TTab:AddToggle("Toggle", {Title = "Auto Melee", Default = false })
+local Toggle = Tabs.TTTab:AddToggle("Toggle", {Title = "Auto Melee", Default = false })
 
     Toggle:OnChanged(function(value)
         Melee = value
     end)
     
-local Toggle = Tabs.TTab:AddToggle("Toggle", {Title = "Auto Sword", Default = false })
+local Toggle = Tabs.TTTab:AddToggle("Toggle", {Title = "Auto Sword", Default = false })
 
     Toggle:OnChanged(function(value)
         Sword = value
     end)
     
-local Toggle = Tabs.TTab:AddToggle("Toggle", {Title = "Auto Defense", Default = false })
+local Toggle = Tabs.TTTab:AddToggle("Toggle", {Title = "Auto Defense", Default = false })
 
     Toggle:OnChanged(function(value)
         Defense = value
     end)
     
-local Toggle = Tabs.TTab:AddToggle("Toggle", {Title = "Auto Fruit", Default = false })
+local Toggle = Tabs.TTTab:AddToggle("Toggle", {Title = "Auto Fruit", Default = false })
 
     Toggle:OnChanged(function(value)
         DevilFruit = value
     end)
     
-    --   Dark   Light  Aqua Amethyst
+--   Dark   Light  Aqua Amethyst
 local Tabs = {
-    MTab = Window:AddTab({ Title = "Fruit", Icon = "rbxassetid://17515562390" }),
+    MMTab = Window:AddTab({ Title = "Fruit", Icon = "rbxassetid://17515562390" }),
 }
 
 --   Dark   Light  Aqua Amethyst
 local Tabs = {
-    ATab = Window:AddTab({ Title = "Teleport", Icon = "rbxassetid://17515562390" }),
+    AATab = Window:AddTab({ Title = "Teleport", Icon = "rbxassetid://17515562390" }),
 }
 
-local Dropdown = Tabs.ATab:AddDropdown("Dropdown", {
+local Dropdown = Tabs.AATab:AddDropdown("Dropdown", {
         Title = "Teleport Islands",
         Values = {"None", "Island Star", "Sand", "Roshi", "Snow", "Pink", "Namek", "Sky 2", "Sky 1", "Broly", "zamasu"},
         Multi = false,
