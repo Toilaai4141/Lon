@@ -395,18 +395,6 @@ local Dropdown = Tabs.MiscTab:AddDropdown("Dropdown", {
         Multi = false,
         Default = 1,
     })
-
-    Dropdown:SetValue("None")
-
-    Dropdown:OnChanged(function(Value)
-        print("Dropdown changed:", Value)
-    end)
-    
-    Dropdown:SetValue("Island Star")
-
-    Dropdown:OnChanged(function(Value)
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(305.67746, 63.8466759, 130.768402, -0.508691072, -4.77496371e-08, -0.860949099, -6.37838085e-08, 1, -1.77750152e-08, 0.860949099, 4.58726213e-08, -0.508691072)
-    end)
     
     function fixQuest()
     if game.Players.LocalPlayer.PlayerGui:FindFirstChild("QuestTake") then
