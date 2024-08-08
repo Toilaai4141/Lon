@@ -333,7 +333,7 @@ Tabs.MainTab:AddButton({
     
     --   Dark   Light  Aqua Amethyst
 local Tabs = {
-    MainTab = Window:AddTab({ Title = "Farm • Quest", Icon = "rbxassetid://17515562390" }),
+    CcTab = Window:AddTab({ Title = "Farm • Quest", Icon = "rbxassetid://17515562390" }),
 }
 
 local Toggle = Tabs.CcTab:AddToggle("Toggle", {Title = "Auto Fram Raids", Default = false })
