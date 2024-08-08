@@ -399,6 +399,10 @@ local Dropdown = Tabs.MiscTab:AddDropdown("Dropdown", {
     Dropdown:OnChanged(function(Value)
         print("Dropdown changed:", Value)
     end)
+    Dropdown:SetValue("zamasu")
+    Dropdown:OnChanged(function(Value)
+        print("Dropdown changed:", Value)
+    end)
     
     function fixQuest()
     if game.Players.LocalPlayer.PlayerGui:FindFirstChild("QuestTake") then
